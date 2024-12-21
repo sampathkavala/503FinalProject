@@ -4,3 +4,11 @@ numpy
 pandas
 pydantic
 scikit-learn
+joblib
+matplotlib
+seaborn
+imbalanced-learn
+ydata-profiling
+mlflow
+xgboost
+ipywidgets
