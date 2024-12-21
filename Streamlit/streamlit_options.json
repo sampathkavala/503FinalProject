@@ -1,0 +1,90 @@
+{
+  "slider_fields": {
+    "Age": [18, 88],
+    "Duration": [0, 3643],
+    "Campaign": [1, 35],
+    "Pdays": [0, 999],
+    "Previous": [0, 6],
+    "EmpVarRate": [-3.4, 1.4],
+    "ConsPriceIdx": [92.201, 94.767],
+    "ConsConfIdx": [-50.8, -26.9],
+    "Euribor3m": [0.635, 5.045],
+    "NrEmployed": [4963.6, 5228.1]
+  },
+
+  "single_select_fields": {
+    "Job": [
+      "admin.",
+      "blue-collar",
+      "entrepreneur",
+      "housemaid",
+      "management",
+      "retired",
+      "self-employed",
+      "services",
+      "student",
+      "technician",
+      "unemployed",
+      "unknown"
+    ],
+    "Marital_Status": [
+      "married",
+      "single",
+      "divorced",
+      "unknown"
+    ],
+    "Education": [
+      "basic.9y",
+      "high.school",
+      "university.degree",
+      "professional.course",
+      "basic.6y",
+      "basic.4y",
+      "unknown",
+      "illiterate"
+    ],
+    "Default_Status": [
+      "no",
+      "unknown",
+      "yes"
+    ],
+    "Housing": [
+      "yes",
+      "no",
+      "unknown"
+    ],
+    "Loan": [
+      "no",
+      "unknown",
+      "yes"
+    ],
+    "Contact": [
+      "cellular",
+      "telephone"
+    ],
+    "Month": [
+      "may",
+      "jun",
+      "nov",
+      "sep",
+      "jul",
+      "aug",
+      "mar",
+      "oct",
+      "apr",
+      "dec"
+    ],
+    "DayOfWeek": [
+      "fri",
+      "wed",
+      "mon",
+      "thu",
+      "tue"
+    ],
+    "Poutcome": [
+      "nonexistent",
+      "failure",
+      "success"
+    ]
+  }
+}
