@@ -17,7 +17,7 @@ app = FastAPI()
 
 # final_model_experiment_7.pkl
 
-final_pipeline_expt7 = joblib.load("../Model/xgb_pipeline_expt7.pkl")
+final_pipeline_expt7 = joblib.load("../Model/final_model_experiment_7.pkl")
 best_threshold = 0.27
 
 
