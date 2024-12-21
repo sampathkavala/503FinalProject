@@ -1,13 +1,17 @@
 import json
 import streamlit as st
 import requests
-
+import os
 
 user_options = {}
 
 st.title('Term Loan Subscription Prediction')
+current_dir = os.path.dirname(os.path.abspath(__file__))
 
-streamlit_options = json.load(open("streamlit_options.json"))
+file_path = os.path.join(current_dir, "streamlit_options.json")
+print("Looking for:", file_path)
+streamlit_options = json.load(open(file_path))
+
 for field_name, range in streamlit_options["slider_fields"].items():
     a, b = range
     min_val=round(a)
